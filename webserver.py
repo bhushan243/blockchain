@@ -49,3 +49,9 @@ if __name__ == "__main__":
 
     webServer.server_close()
     print("Server stopped.")
+
+#  curl command for token transfer
+# curl --header "Content-Type: application/json" --request POST --data '{"address":"0xac4FafdA6A3A6B48b4cDC2a896acf8D104C81d6C"}' http://localhost:8080/token
+
+# curl command for eth transfer
+# curl --header "Content-Type: application/json" --request POST --data '{"address":"0xac4FafdA6A3A6B48b4cDC2a896acf8D104C81d6C", "amount":"0.05"}' http://localhost:8080/eth

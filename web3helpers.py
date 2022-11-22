@@ -96,7 +96,7 @@ def ethTransfer():
             'nonce': nonce,
             'to': targetAccount,
             'value': value,
-            'gas': 2000000,
+            'gas': 21000,
             'gasPrice': gasPrice,
             'chainId': 5
         }
